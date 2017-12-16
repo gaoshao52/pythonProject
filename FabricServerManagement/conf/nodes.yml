@@ -1,0 +1,23 @@
+group1:
+- hostname: linux-node1
+  ip: 192.168.56.11
+  password: '123456'
+  ssh_port: 22
+  username: root
+- hostname: linux-node2
+  ip: 192.168.56.12
+  password: '123456'
+  ssh_port: 22
+  username: root
+
+group2:
+- hostname: puppet-node1
+  ip: 192.168.56.21
+  password: '123456'
+  ssh_port: 22
+  username: root
+- hostname: puppet-node2
+  ip: 192.168.56.22
+  password: '123456'
+  ssh_port: 22
+  username: root
